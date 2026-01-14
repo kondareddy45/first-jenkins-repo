@@ -2,3 +2,12 @@ num1 = 50
 num2 = 270 
 sum_of_numbers = num1 + num2 
 print(f"The sum of 2 numbers is: {sum_of_numbers}") 
+###################
+
+
+number = int(input("Enter a number: ")) 
+
+if number % 2 == 0:
+    print("The number is Even") 
+else:
+    print("The number is Odd")
